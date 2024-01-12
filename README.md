@@ -2,14 +2,6 @@
 
 A tool to scrape data from blocket bostad
 
-## Table of contents
-
-  - [Overview](#overview)
-  - [The goal](#the-goal)
-  - [Built with](#built-with)
-  - [TODO](#TODO)
-  - [What I learned](#what-i-learned)
-
 ## Overview
 
 Scrape data such as rent, amount of rooms and size from listings on Blocket Bostad. 
