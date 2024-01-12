@@ -1,0 +1,7 @@
+# .gitignore
+__pycache__/
+.idea/
+*.pyc
+*.pyo
+*.pyd
+*.csv
