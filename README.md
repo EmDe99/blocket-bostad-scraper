@@ -6,10 +6,6 @@ A tool to scrape data from blocket bostad
 
 Scrape data such as rent, amount of rooms and size from listings on Blocket Bostad. 
 
-### The goal
-
-Scrape data from blocket bostad to analyze. 
-
 ### Built with
 
 - Python
