@@ -18,7 +18,7 @@ def main():
     """"
     Main function to run the program
     """
-    driver.get('https://bostad.blocket.se/p2/sv/find-home/?searchAreas=Visby')
+    driver.get('https://bostad.blocket.se/p2/sv/find-home/?searchAreas=') # Add area to scrape to the end of the link
     time.sleep(5)
     click_cookie_button()
 
@@ -59,10 +59,6 @@ def find_house_information():
         price = current_house.text
 
         listing = Listings.Listings(house_type, rooms, size, price)
-        print(listing.price)
-        print(listing.house_type)
-        print(listing.rooms)
-        print(listing.size)
         house_list.append(listing)
 
     next_page()
