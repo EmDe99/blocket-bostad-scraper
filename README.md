@@ -1,28 +1,34 @@
-Blocket Bostad Webscraper
+# Blocket Bostad Scraper
 
-A python application to scrape information from Blocket bostad
-Table of contents
+A tool to scrape data from blocket bostad
 
-    Overview
-    Built with    
-    What I learned
+## Table of contents
 
-Overview
+  - [Overview](#overview)
+  - [The goal](#the-goal)
+  - [Built with](#built-with)
+  - [TODO](#TODO)
+  - [What I learned](#what-i-learned)
 
-In this project, i created a scraping tool to get information such as rent, size and amount of rooms from blocket bostad. The tool also saves the information to a CSV file using pandas. 
+## Overview
 
-    
-Built with
+Scrape data such as rent, amount of rooms and size from listings on Blocket Bostad. 
 
-    Python
-    Selenium
-    Pandas
+### The goal
 
-TODO
+Scrape data from blocket bostad to analyze. 
 
-Expand the project to analyze the data collected.
+### Built with
 
-What I learned
+- Python
+- Selenium
+- Pandas
 
-How to scrape website.
-How to save the scraped data. 
+### TODO
+
+Expand the project to analyze the collected data. 
+
+### What I learned
+
+- How to scrape data from websites.
+- How to save the collected data.
