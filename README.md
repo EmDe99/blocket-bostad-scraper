@@ -1,6 +1,6 @@
 # Blocket Bostad Scraper
 
-A tool to scrape data in the form of rent, amount of rooms, type and size from blocket bostad.
+A tool to scrape data in the form of rent, amount of rooms, type and size from blocket bostad and save it to a .csv file. 
 
 ### Built with
 
