@@ -12,11 +12,16 @@ Scrape data in the form of rent, amount of rooms, type and size from listings on
 - Selenium
 - Pandas
 
-### TODO
+### To Run
 
-Expand the project to analyze the collected data. 
+Install the required dependencies using the following command: 
 
-### What I learned
+pip install -r requirements.txt
 
-- How to scrape data from websites.
-- How to save the collected data.
+If needed modify the webdriver to point towards your chromedriver. 
+
+Next modify the url to match the area you want to scrape from. The following is an examplet to scrape from the Stockholm Area:
+
+driver.get('https://bostad.blocket.se/p2/sv/find-home/?searchAreas=Stockholm')
+
+Now you are ready to scrape!
