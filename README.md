@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ```
 If needed modify the webdriver to point towards your chromedriver. 
 
-Next modify the url to match the area you want to scrape from. The following is an examplet to scrape from the Stockholm Area:
+Next modify the url to match the area you want to scrape from. The following is an example to scrape from the Stockholm Area:
 ```
 driver.get('https://bostad.blocket.se/p2/sv/find-home/?searchAreas=Stockholm')
 ```
