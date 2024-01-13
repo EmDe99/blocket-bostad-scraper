@@ -4,7 +4,7 @@ A tool to scrape data from blocket bostad
 
 ## Overview
 
-Scrape data such as rent, amount of rooms and size from listings on Blocket Bostad. 
+Scrape data in the form of rent, amount of rooms, type and size from listings on Blocket Bostad. 
 
 ### Built with
 
