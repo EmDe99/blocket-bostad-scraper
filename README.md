@@ -1,6 +1,6 @@
 # Blocket Bostad Scraper
 
-A tool to scrape data in the form of rent, amount of rooms, type and size from blocket bostad and save it to a .csv file. Now using the "hidden" blocket api instead of scraping from the front-end. 
+A tool to scrape data such as rent, amount of rooms, type and size from blocket bostad and save it to a .csv file. Now using the "hidden" blocket api instead of scraping from the front-end. 
 
 ## Built with
 
@@ -24,10 +24,8 @@ To change this we can modify the payload:
 "areaIdentifier": [],
 ```
 
-To:
+To (if you want to scrape only from the Stockholm area):
 
 ```
 "areaIdentifier": ["se/stockholm"]
 ```
-
-If you want to scrape only from the Stockholm area. You will also need to change the for loop range to matche the amount of listings in the specific area you choose.
