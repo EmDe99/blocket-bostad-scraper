@@ -82,4 +82,4 @@ for x in range(0, 350):  # Set the range from 0 to 350 to ensure all potential l
 
 listings_df = pd.json_normalize(result)
 
-listings_df.to_csv("blocket_data_visby.csv")
+listings_df.to_csv("blocket_data.csv")
