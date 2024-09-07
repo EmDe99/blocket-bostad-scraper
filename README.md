@@ -28,7 +28,7 @@ To change this we can modify the payload:
 "areaIdentifier": [],
 ```
 
-To (if you want to scrape only from the Stockholm area):
+To (if you want to, for example, only scrape from the Stockholm area):
 
 ```
 "areaIdentifier": ["se/stockholm"]
