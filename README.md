@@ -10,7 +10,7 @@ This is a scraper project specifically designed for Blocket.se. Scraping Blocket
 
 - Python
 - Pandas
-- Requests
+- Requests 
 
 ## To Run
 
